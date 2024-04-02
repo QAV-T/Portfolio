@@ -60,7 +60,7 @@ main {
 .home-section {
     height: 700px;
     width: 100%;
-    background: url(/assets/images/home-cover.jpg) no-repeat center center/cover;
+    background: url(assets/images/home-cover.jpg) no-repeat center center/cover;
     /* transform: fit-content; */
     background-color: #f2f2f2;
     
