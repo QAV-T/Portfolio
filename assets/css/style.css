@@ -230,16 +230,16 @@ word-spacing: 2px;
 
 /* ai gallery style */
 .gallery {
-    margin: 5%;
-    
-
-    
+    margin: 5%; 
 }
 
 .galleryphotos {
+    column-count: 3;
+    column-gap: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    line-height: 0;
 }
 
 .galleryphotos img {
@@ -247,11 +247,6 @@ word-spacing: 2px;
     line-height: 1em;
     padding: 2px;    
 }
-
-#portraitphotos img {
-    height: fit-content;
-}
-
 
 /* CSS for mobile responsiveness */
 @media screen and (max-width: 768px) {
