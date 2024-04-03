@@ -229,14 +229,25 @@ word-spacing: 2px;
 
 
 /* ai gallery style */
-.aiphotos { 
-margin: 5%;
+.aiphotos {
+    margin: 5%;
+    
+
     
 }
 
-#aiphotos img {
-    width: 30%;
+#aiimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#aiimages img {
+    max-width: 30%;
     line-height: 1em;
+    padding: 2px;
+    
+    
 }
 
 /* CSS for mobile responsiveness */
