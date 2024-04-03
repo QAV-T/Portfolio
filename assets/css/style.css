@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'lato',Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +21,6 @@ main {
     flex: 1 0 auto;
 }
 
-/* Navbar styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -36,6 +37,9 @@ main {
 .logo {
     color: #fff;
     font-size: 1.5rem;
+    font-family: 'oswald', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .nav-links {
@@ -52,13 +56,11 @@ main {
     text-decoration: none;
 }
 
-
 #menu-toggle,
 .menu-icon {
     display: none;
 }
 
-/* Home section styles */
 .home-section {
     display: flex;
     height: 700px;
@@ -121,7 +123,7 @@ main {
 #portraits {
     background: url(../images/Portrait-cover.webp) no-repeat center/cover;
 }
-/* about */
+
 .about-section {
     background-color: #1f1f1f34;
     display: flex;
@@ -131,7 +133,7 @@ main {
     height: 550px;
     margin: 20px 500px 50px 500px;
 }
-/* paragraph style */
+
 #about div {
 color: #f2f2f2;
 text-align: center;
@@ -140,7 +142,6 @@ word-spacing: 2px;
 
 }
 
-/* Contact section styles */
 .contact-section {
     height: 500px;
     background-color: #1f1f1f34;
@@ -175,10 +176,6 @@ word-spacing: 2px;
     cursor: pointer;
 }
 
-
-
-
-/* ai gallery style */
 .gallery {
     margin: 5%; 
 }
@@ -198,17 +195,18 @@ word-spacing: 2px;
     padding: 2px;    
 }
 
-/* Footer styles */
 .footer {
     background-color: #0a0a0a;
     color: #f2f2f2;
     text-align: right;
     padding: 0px 5px 0 0;
+    margin: 0;
 }
 
 #social-networks {
     width: 20%;
-    padding: 15px 20px;
+    padding: 15px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -218,18 +216,13 @@ word-spacing: 2px;
 #copyright {
     float: right;
     padding: 30px 0;
-
-
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #fff;
-
 }
-
-/* CSS for mobile responsiveness */
 
 @media screen and (max-width: 1368px) {
 
@@ -239,12 +232,9 @@ word-spacing: 2px;
 
     .contact-section {
         margin: 20px 200px 50px 200px;
-    }
-    
+
+    }   
 }
-
-
-
 
 @media screen and (max-width: 768px) {
     .nav-links {
@@ -257,7 +247,6 @@ word-spacing: 2px;
         left: 0;
         width: 100%;
         z-index: 1;
-
     }
 
     .nav-links li {
@@ -287,7 +276,6 @@ word-spacing: 2px;
         font-size: 40%;
     }
 
-
     .about-section {
         margin: 20px 40px 50px 40px;
         height: fit-content;
@@ -312,11 +300,24 @@ word-spacing: 2px;
     #social-networks li {
         display: inline-block;
         padding: 10px;
+    }
+    
+    #copyright {
+        padding-bottom: 20px;
+    }
+    }
 
+@media screen and (max-width: 576px) {
+    .gallery {
+        visibility: hidden;
+    }
+
+    .galleryphotos {
+        visibility: hidden;
+    }   
     }
 
 
-}
 
 @media screen and (max-width: 479px) {
     .footer {
