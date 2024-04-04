@@ -69,6 +69,27 @@ main {
 	background-color: #f2f2f2;
 }
 
+#cover-text {
+	font-family:'oswald', Arial, sans-serif;
+	text-align: left;
+    background-color: #1d1d1db3;
+	color: #f2f2f2e5;
+    position: absolute;
+    font-size: 180%;
+    bottom: 200px;
+	width: 300px;
+    right: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#cover-text em {
+	font-size:150% ;
+}
+
+#cover-text h3 {
+	font-size: 100%;
+}
 #gallery h2 {
 	visibility: hidden;
 	color: #f2f2f2;
@@ -126,7 +147,7 @@ main {
 }
 
 .about-section {
-	background-color: #1f1f1f34;
+	background-color: #1d1d1db3;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -145,7 +166,7 @@ main {
 
 .contact-section {
 	height: 500px;
-	background-color: #1f1f1f34;
+	background-color: #1d1d1db3;
 	padding: 20px 20px;
 	margin: 20px 500px 50px 500px;
 	color: #f2f2f2;
@@ -222,6 +243,7 @@ main {
 	color: #fff;
 }
 
+/* Adjesting boxes for laptops */
 @media screen and (max-width: 1368px) {
 
 	.about-section {
@@ -234,6 +256,7 @@ main {
 	}
 }
 
+/* Adjesting sizes to fit devices smaller than laptops */
 @media screen and (max-width: 768px) {
 	.nav-links {
 		display: none;
@@ -270,6 +293,13 @@ main {
 		margin-right: 20px;
 	}
 
+	#cover-text {
+		background-color: #1d1d1d56;
+		color: #f2f2f26e;
+		width: 60%;
+		max-height: 60%;
+	}
+
 	.gallery-links {
 		font-size: 60%;
 	}
@@ -302,13 +332,32 @@ main {
 
 }
 
-
+/* Adjesting a size of a spesifec title for mobile devices */
 @media screen and (max-width: 479px) {
 
 	.gallery-links {
         margin-left: 0px;
-		font-size: 35%;
+		font-size: 40%;
 		font-weight: 800;  
+	}
+
+	#cover-text {
+		font-size: 110%;
+		width: 60%;
+		max-height: 60%;
+	}
+
+}
+
+/* Adjesting a size of a spesifec title for smaller mobile devices */
+@media screen and (max-width: 264px) {
+
+	.gallery-links {
+		font-size: 20%;
+	}
+
+	#cover-text {
+		font-size: 110%;
 	}
 
 }
