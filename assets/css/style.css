@@ -108,7 +108,6 @@ main {
     letter-spacing: 10px;
     width: inherit;
     height: inherit;
-    text-wrap: wrap;
 }
 
 #landscapes {
@@ -203,22 +202,21 @@ word-spacing: 2px;
     margin: 0;
 }
 
-#social-networks {
-    width: 20%;
+.social-networks {
+    width: 100%;
     padding: 15px;
     padding-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
-    float: inline-start;
 }
 
 #copyright {
-    float: right;
-    padding: 30px 0;
+    visibility: hidden;
+
 }
 
-#social-networks i {
+.social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #fff;
@@ -273,7 +271,7 @@ word-spacing: 2px;
     }
 
     .gallery-links {
-        font-size: 40%;
+        font-size: 60%;
     }
 
     .about-section {
@@ -297,35 +295,26 @@ word-spacing: 2px;
         margin-bottom: 10px;
     }
 
-    #social-networks li {
-        display: inline-block;
-        padding: 10px;
-    }
-    
-    #copyright {
-        padding-bottom: 20px;
-    }
-    }
-
-@media screen and (max-width: 576px) {
-    .gallery {
-        visibility: hidden;
-    }
-
     .galleryphotos {
-        visibility: hidden;
-    }   
+        column-count: 2;
+        
+    }  
+
     }
+
+/* @media screen and (max-width: 576px) {
+
+
+ 
+    } */
 
 
 
 @media screen and (max-width: 479px) {
-    .footer {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        padding: 10px;
-    }
+    
+    .gallery-links {
+        font-size: 20%;
+        font-weight: 800;
+    }   
     
 }
-

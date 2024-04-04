@@ -35,9 +35,6 @@ As a visiting user, I would like to contact the photographer for cooperation enq
 
   - This section will allow the user to read in a little more about the photographer in words. 
 
-<!-- ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png) -->
-
-
 - __Contact section__
 
 - This section will allow the user, when interested, to communicate with the photographer and establish contact for various matters.
