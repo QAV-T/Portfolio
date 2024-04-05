@@ -37,6 +37,7 @@ As a visiting user, I would like to contact the photographer for cooperation or 
 
   - This section includes three galleries, with a picture from the collection on the clickable box 
   - The user will be able by hovering on one of the box to see a white border to show the borders of the clickable box.
+  
 ![Galleries](https://github.com/QAV-T/Portfolio/blob/main/assets/readme%20docs/gallery.png)
 
 - __About section__
@@ -44,7 +45,7 @@ As a visiting user, I would like to contact the photographer for cooperation or 
   - This section will allow the user to read more about the photographer in words.
   - The section is displayed in part, a header and three paragraphs as it is more appealing to read in smaller parts.
  
-  ![About](https://github.com/QAV-T/Portfolio/blob/main/assets/readme%20docs/About.png)
+  ![About](https://github.com/QAV-T/Portfolio/blob/main/assets/readme%20docs/about.png)
 
 - __Contact section__
 
@@ -84,7 +85,8 @@ As a visiting user, I would like to contact the photographer for cooperation or 
 - CSS
   - No errors were found when passing through the official jigsaw validator.
 - Accessibility
- ![Accessibility](https://github.com/QAV-T/Portfolio/blob/main/assets/readme%20docs/Accessibility.png)
+
+ ![Accessibility](https://github.com/QAV-T/Portfolio/blob/main/assets/readme%20docs/ccessibility.png)
 
 ### Unfixed Bugs
 

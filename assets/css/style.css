@@ -72,8 +72,8 @@ main {
 #cover-text {
 	font-family: 'oswald', Arial, sans-serif;
 	text-align: left;
-	background-color: #131313b3;
-	color: #f2f2f2e5;
+	background-color: #1313138c;
+	color: #f2f2f2b9;
 	position: absolute;
 	font-size: 180%;
 	bottom: 200px;
@@ -354,6 +354,10 @@ main {
 
 	.gallery-links {
 		font-size: 20%;
+	}
+
+	.gallery-links li a {
+		letter-spacing: 5px;;
 	}
 
 	#cover-text {
