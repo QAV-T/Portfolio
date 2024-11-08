@@ -2,6 +2,8 @@
 
 With years of being a photographer, tracking light, shapes and contrast in the visual appearance of our world, I compile a concise selection of images in different genres to showcase my passion, skills and vision.
 
+The live link can be found here - https://qav-t.github.io/Portfolio/#home
+
 ![Responsive Mockup](https://github.com/QAV-T/Portfolio/blob/main/readme%20docs/responsive.png)
 
 ## User story
